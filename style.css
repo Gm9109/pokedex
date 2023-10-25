@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400&display=swap');
+
+body {
+	background: #EFEFBB;
+	background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+	background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Lato';
+	margin: 0;
+}
+
+h1 {
+	letter-spacing: 3px;
+}
+
+#pokemonContainer {
+	background-color: '#fceaff';
+	display: flex;
+	flex-wrap: wrap;
+	align-items: space-between;
+	justify-content: center;
+	margin: 0;
+	max-width: 1200px;
+}
+
+.pokemon {
+	background-color: #eee;
+	border-radius: 20px;
+	box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+	margin: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.pokemon .imgContainer {
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 50%;
+	width: 120px;
+	height: 120px;
+	text-align: center;
+}
+
+.pokemon .imgContainer img {
+	margin-top: 20px;
+	max-width: 90%;
+}
+
+.pokemon .info {
+	margin-top: 20px;
+}
+
+.pokemon .name {
+	margin: 15px 0 7px;
+	letter-spacing: 1px;
+}
+
+#next {
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 15%;
+	width: 80px;
+	height: 40px;
+	text-align: center;
+	margin: 20px;
+}
+
+.fire {
+	background-color: #f13939;
+}
+
+.grass {
+	background-color: #20f12e;
+}
+
+.electric {
+	background-color: #f4f806;
+}
+
+.water {
+	background-color: #0aadf9;
+}
+
+.ground {
+	background-color: #f6ce5f;
+}
+
+.rock {
+	background-color: #c8a33f;
+}
+
+.fairy {
+	background-color: #f7cde7;
+}
+
+.poison {
+	background-color: #98078e;
+}
+
+.bug {
+	background-color: #c2f259;
+}
+
+.dragon {
+	background-color: #043a9f;
+}
+
+.psychic {
+	background-color: #ff4378;
+}
+
+.ghost {
+	background-color: #785a90;
+}
+
+.flying {
+	background-color: #68c0ff;
+}
+
+.fighting {
+	background-color: #bb5801;
+}
+
+.normal {
+	background-color: #F5F5F5;
+}
+
+.ice {
+	background-color: #bfe2f3;
+}
+
+.dark {
+	background-color: rgba(0, 0, 0, 0.719);
+}
+
+.steel {
+	background-color: #7b7b7b;
+}
